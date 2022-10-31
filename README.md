@@ -18,7 +18,7 @@ The area marked by a small square is the global integer type used for calculatin
 
 Now let us find out how to use Localc for simple calculation.
 
-There is no equals sign button in Loaclc's Num-pad who contains only binary-operations buttons. If you know about [Reverse Polish Notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation), you must know how dos it works:
+There is no equals sign button in Loaclc's Num-pad who contains only binary-operations buttons. If you know about [Reverse Polish Notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation), you must know how dos it works easily:
 
 +	Binary-operations perform on the numbers stored in the selected number-box(first operand) and the next number-box(second operand). 
 +	The result will be stored in the selected number-box.
@@ -67,7 +67,7 @@ Localc supports these expression tokens:
 |max|The max value of current int-type for calculating||
 |min|The min value of current int-type for calculating||
 |`nb1`<br/>-<br/>`nb4`|References the value of target number-box|If the size of int-type for expression is less than global int-type, the value will be truncated|
-|$*\<varName\>*|References the value defined in [variables list](Variables)|If the size of int-type for expression is less than global int-type, the value will be truncated|
+|$*\<varName\>*|References the value defined in [variables list](Variables)|If the size of int-type for expression is less than 64-bit, the value will be truncated|
 
 Integer number in expression uses `_` and `,` as separators, so `1,2_3` and '0x1_2_3' are correct formats. 
 
@@ -131,11 +131,11 @@ The text-box who is used for set the vaule of variable provides calculation for 
 
 ## Drag-Drop
 
-You can drag a number-box and drop it on another number-box to swap them values. By pressing Shift-Key, The value in dragged number-box would be copied to the target number-box. And you can reorder number-boxes simply by pressing Control-Key.
+You can drag a number-box and drop it on another number-box to swap them values. By pressing `Shift` key, The value in dragged number-box would be copied to the target number-box. And you can reorder number-boxes simply by pressing `Control` key.
 
 You can also drag a number-box to Exp-pad as a reference, and the result-area(if it is not empty or invalid value) in Exp-pad can be dragged to any number-box too. 
 
-If you drag a number-boxe to the text-box owned by Var-pad, the value will be copied to text-box. You can also drag and drop it on a existed variable who is in the variable-list to update variable's value, and the variable can be dragged to number-box.
+On Var-pad, If you drag a number-box to the text-box which is used for entering variable value, the value will be copied to the text-box. You can also drag and drop number-box on a existed variable who is in the variable-list to update it's value, and the variable can be dragged to number-box.
 
 ## Shortcuts
 
@@ -159,7 +159,7 @@ If you drag a number-boxe to the text-box owned by Var-pad, the value will be co
 |`N`|NEG|*\** Only available on Num-pad or Bit-Pad|
 |`Ctrl`\+`C`|Copy|*\** Only available on Num-pad or Bit-Pad|
 |`Ctrl`\+`V`|Paste|*\** Only available on Num-pad or Bit-Pad|
-|`Ctrl`\+`X`|Copy and set value to 0|*\** Only available on Num-pad or Bit-Pad|
+|`Ctrl`\+`X`|Copy and set the value to 0|*\** Only available on Num-pad or Bit-Pad|
 |`F1`|Select 1st number-box||
 |`F2`|Select 2nd number-box||
 |`F3`|Select 3rd number-box||

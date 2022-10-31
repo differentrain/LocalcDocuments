@@ -12,7 +12,7 @@ Localc has four number-boxes for storing operands. You can switch display-format
 
 ![img_main_gui](https://github.com/differentrain/LocalcDocuments/raw/main/Img/img_main_gui.png)
 
-As shown in the illustration, unary-operations buttons NEG(negation), NOT(bitwise NOT) are placed in number-box, as same as MAX(max value of current integer type), MIN(min value of current integer type), CLR(set number to 0), BKSP(backspace). When you click these button, the number-box owns them will perform  corresponding operations. if you press related [shortcuts](Shortcuts), the operation will be performed on the selected number-box.
+As shown in the illustration, unary-operations buttons NEG(negation), NOT(bitwise NOT) are placed in number-box, as same as MAX(max value of current integer type), MIN(min value of current integer type), CLR(set number to 0), BKSP(backspace). When you click these button, the number-box owns them will perform  corresponding operations. if you press related [shortcuts](https://github.com/differentrain/LocalcDocuments#shortcuts), the operation will be performed on the selected number-box.
 
 The area marked by a small square is the global integer type used for calculating. The default option is set to Int64(Signed 64-bit integer). The option chould be changed by clicking buttons in this area.
 
@@ -67,7 +67,7 @@ Localc supports these expression tokens:
 |max|The max value of current int-type for calculating||
 |min|The min value of current int-type for calculating||
 |`nb1`<br/>-<br/>`nb4`|References the value of target number-box|If the size of int-type for expression is less than global int-type, the value will be truncated|
-|$*\<varName\>*|References the value defined in [variables list](Variables)|If the size of int-type for expression is less than 64-bit, the value will be truncated|
+|$*\<varName\>*|References the value defined in [variables list](https://github.com/differentrain/LocalcDocuments#variables)|If the size of int-type for expression is less than 64-bit, the value will be truncated|
 
 Integer number in expression uses `_` and `,` as separators, so `1,2_3` and '0x1_2_3' are correct formats. 
 
@@ -127,7 +127,7 @@ Floating-point mode supports all tokens above except bitwise operators, in addit
 
 You can add variables to variable-list, and reference them via `$varName` in expressions. You can also modify an exist variable by clicking it.
 
-The text-box who is used for set the vaule of variable provides calculation for [expressions](Expressions), **but the integer type for calculating is set to `Int64`**. 
+The text-box who is used for set the vaule of variable provides calculation for [expressions](https://github.com/differentrain/LocalcDocuments#expressions), **but the integer type for calculating is set to `Int64`**. 
 
 ## Drag-Drop
 

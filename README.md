@@ -24,7 +24,7 @@ There is no equals sign button in Loaclc's Num-pad who contains only binary-oper
 +	The result will be stored in the selected number-box.
 +	If 4th number-box is selected, the number stored in it is deemed as the second operand, and the result will be stored in 3th number-box.
 
-If 3th number-box's value is `3`, and 4th number-box's value is `4`, The value of 3th number-box is set to `7` by clicking ADD(+) button.
+If 3th number-box's value is `3`, and 4th number-box's is selected and it's value is `4` , the value of 3th number-box is set to `7` by clicking ADD(+) button.
 
 ## Conversion Between Text And Bytes
 ![img_str_pad](https://github.com/differentrain/LocalcDocuments/raw/main/Img/img_str_pad.png)

@@ -29,7 +29,7 @@ If 3th number-box's value is `3`, and 4th number-box's is selected and it's valu
 ## Conversion Between Text And Bytes
 ![img_str_pad](https://github.com/differentrain/LocalcDocuments/raw/main/Img/img_str_pad.png)
 
-The top text-box on Str-pad is used for entering text, and the bottom text-box for entering the text of hex-bytes. It is very easy to convert text to hex-bytes or convert hex-bytes to text: just input string into one of them, the text in another one would be changed with selected codepage.
+The top text-box on Str-pad is used for entering normal text, and the bottom text-box for entering the text of hex-bytes. It is very easy to convert text to hex-bytes or convert hex-bytes to text: just input string into one of them, the text in another one would be changed with selected codepage.
 
 The elements of hex-bytes can be space(`0x20`), comma(`,`) or hex-number. A Hex-number does not need `0x` prefix, but **MUST** contains and contains **only** two digits.
 

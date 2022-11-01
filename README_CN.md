@@ -130,7 +130,7 @@ Localc 支持以下表达式符号:
 
 你可以把变量加入变量列表中，并通过 `$varName` 在表达式中进行引用.你也可以单击已存在的变量，对它进行修改。
 
-用来输入变量值的文本框提供了对 [表达式](https://github.com/differentrain/LocalcDocuments/blob/main/README_CN.md#%E8%A1%A8%E8%BE%BE%E5%BC%8F) 的计算功能, **不过其用于计算的整数类型是 `Int64` **. 
+用来输入变量值的文本框提供了对 [表达式](https://github.com/differentrain/LocalcDocuments/blob/main/README_CN.md#%E8%A1%A8%E8%BE%BE%E5%BC%8F) 的计算功能, **不过其用于计算的整数类型是 `Int64`。** 
 
 ## 拖拽
 

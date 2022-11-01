@@ -40,6 +40,11 @@ Localc 利用四个数字框来存储操作数。你可以在十六进制/十进
 
 Str面板中的按钮说明了，当所选择的代码页发生变动时，究竟是将普通文本还是十六进制数组作为转换源进行转换。 它的默认设置是 `Text`, 当你选择其他的代码页时， Localc 将会将文本转化为字节数组。点击此按钮可以将这个选项改成 `Bytes`.
 
+### 1.0.2新增
+
+在Str面板新增了一个文本框，以十六进制数字的形式表示字节数组的前八个字节。
+
+
 ## 表达式
 ![img_exp_pad.png](https://github.com/differentrain/LocalcDocuments/raw/main/Img/img_exp_pad.png)
 

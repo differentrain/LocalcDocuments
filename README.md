@@ -37,6 +37,11 @@ For example, `0x01,0X02, 03 04 F2` is a correct format, but `01 02 3 04` is inco
 
 The button in Str-pad specifies that whether normal text or hex-bytes will be deemed as conversion source when codepage selection is changed. It's default option is set to `Text`, if you change the codepage selection, Localc will convert the text to hex-bytes. You can set it to `Bytes` by clicking the button.
 
+
+### new feature in 1.0.2  
+
+A text-box is added to Str-pad for representing the first eight bytes of hex-bytes with hex-number.
+
 ## Expressions
 ![img_exp_pad.png](https://github.com/differentrain/LocalcDocuments/raw/main/Img/img_exp_pad.png)
 

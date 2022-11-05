@@ -8,6 +8,9 @@
 [中文](https://github.com/differentrain/LocalcDocuments/blob/main/README_CN.md) 　　 
 [English](https://github.com/differentrain/LocalcDocuments/blob/main/README.md)
 
+
+[开源命令行版本](https://github.com/differentrain/Loexp)
+
 ## 起步
 
 Localc 利用四个数字框来存储操作数。你可以在十六进制/十进制/八进制/二进制之间切换其显示形式。

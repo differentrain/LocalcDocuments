@@ -6,6 +6,8 @@ A light but powerful calculator for coding and debugging.
 
 [English](https://github.com/differentrain/LocalcDocuments/blob/main/README.md) 　　 [中文](https://github.com/differentrain/LocalcDocuments/blob/main/README_CN.md)
 
+[Open source command-line version](https://github.com/differentrain/Loexp)
+
 ## Getting Started
 
 Localc has four number-boxes for storing operands. You can switch display-format between hexadecimal, decimal, octal and binary.
